@@ -1,35 +1,40 @@
 body {
-	background: linear-gradient(to bottom,lightblue,white);
+	background: #f0f0f0;
 	font-family: Arial, sans-serif;
-}
-
-h1 {
+	margin: 0;
 	text-align: center;
-	color: red;
-	text-shadow: 2px 2px 4px black;
+	color: #333;
 }
 
-p {
-	color: #000;
-	margin: 20px;
+header {
+	background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    padding: 20px;
 }
 
-img {
-	display: block;
-	margin: 0 auto;
-	width: 500px;
-	border-radius: 20px;
+header h1 {
+	margin: 0;
 }
 
-.center {
-	display: flex;               /* включаем flex у контейнера */
-	justify-content: center;
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
+	font-wight: bold;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 20px;
 }
 
 .btn {
 	display: inline-block;
 	padding: 10px 20px;
-	background: linear-gradient(90deg,#4facfe ,#00f2fe );
+	background: linear-gradient(to left,#4facfe ,#00f2fe );
 	background-size: 200% 100%;
 	background-position: right bottom;
 	transition: background-position 0.4s ease;
@@ -44,6 +49,9 @@ img {
 	background-position: left bottom;
 }
 
-a {
-	display: block;
-	margin: 20px;
+footer {
+	background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
