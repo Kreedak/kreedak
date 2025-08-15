@@ -2,6 +2,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+:root {
+	--header-height: 80px;
+}
+
 html, body {
 	height: 100%;
 	margin: 0;
@@ -19,9 +23,14 @@ body {
 }
 
 header {
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
 	background: linear-gradient(to right, #4facfe, #00f2fe);
     color: white;
-    padding: 20px;
+    padding: var(--header-height);
+	z-index: 1000;
 }
 
 header h1 {
@@ -40,6 +49,7 @@ nav a:hover {
 }
 
 main {
+	margin-top: var(--header-height);
 	flex: 1;
 	padding: 20px;
 }
@@ -81,6 +91,7 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
 
 
 
