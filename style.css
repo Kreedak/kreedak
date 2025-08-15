@@ -132,11 +132,17 @@ footer {
     	margin-top: 40px;
   	}
 
-  	nav a {
-    	font-size: 14px; /* уменьшить шрифт */
-    	padding: 5px 8px; /* уменьшить внутренние отступы ссылок */
-  	}
+  	nav {
+    	display: flex;
+    	flex-direction: column;
+    	align-items: flex-start;
+    }
+    nav a {
+    	display: block;
+    	margin: 5px 0;
+	}
 }
+
 
 
 
