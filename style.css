@@ -54,7 +54,7 @@ header.shrink {
 	justify-content: flex-start;
 	gap: 10px;
 	padding: 10px 16px;
-	text-align: center;
+	text-align: right;
 }
 
 header h1 {
@@ -66,7 +66,7 @@ header h1 {
 nav{
 	display: flex;
   	gap: 5px;
-  	/*flex-wrap: wrap;*/
+  	flex-direction: column;
 }
 
 nav a {
@@ -159,11 +159,11 @@ footer {
 		flex-direction: column;
 	}
 	
-	/*}
 	header.shrink {
 		flex-direction: row;
-	}*/
+	}
 }
+
 
 
 
