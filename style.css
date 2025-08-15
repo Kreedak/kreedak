@@ -66,7 +66,7 @@ header h1 {
 nav{
 	display: flex;
   	gap: 5px;
-  	flex-wrap: wrap;
+  	/*flex-wrap: wrap;*/
 }
 
 nav a {
@@ -76,7 +76,7 @@ nav a {
 	border-radius: 8px;
 	transition: background 0.2s ease;
 	margin: 0 5px;
-	font-wight: bold;
+	font-weight: bold;
 }
 
 nav a:hover {
@@ -122,7 +122,7 @@ section {
 }
 
 footer {
-	background: #333;
+	background: blue;
     color: white;
     padding: 10px;
     margin-top: 20px;
@@ -130,7 +130,7 @@ footer {
 
 @media (max-width: 600px) {
   	header h1 {
-    	margin-top: 60px;
+    	margin-top: 50px;
   	}
 
 	header {
@@ -138,6 +138,7 @@ footer {
 	}
 
   	nav {
+		margin-top: 5px;
     	display: flex;
 		flex-wrap: wrap;
     	flex-direction: column;
@@ -152,6 +153,11 @@ footer {
 	}
 }
 
+@media (min-width: 600px) {
+	header.shrink {
+		flex-wrap: wrap;
+	}
+}
 
 
 
