@@ -61,9 +61,9 @@ header h1 {
 }
 
 nav{
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
+	display: flex;
+  	gap: 16px;
+  	flex-wrap: wrap;
 }
 
 nav a {
@@ -124,6 +124,7 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
 
 
 
