@@ -3,8 +3,8 @@ html {
 }
 
 :root {
-	--header-height: 80px;
-	--header-height-small: 48px;
+	--header-height: 120px;
+	--header-height-small: 80px;
 }
 
 html, body {
@@ -124,6 +124,7 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
 
 
 
