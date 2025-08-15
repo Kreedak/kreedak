@@ -1,9 +1,11 @@
 const header = document.querySelector('header');
 
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 50) {      // если прокрутили больше 50px
-    header.style.padding = '5px 0';  // уменьшаем высоту
+function updateHeader(){
+  if (window.scrollY > 50){
+    header.classList.add('shrink');
   } else {
-    header.style.padding = '20px 0';  // возвращаем исходную высоту
+    header.classList.remove('shrink');
   }
-});
+}
+window.addEventListener('scroll', updateHeader);
+window.addEventListener('load', updateHeader);
