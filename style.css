@@ -121,11 +121,12 @@ section {
 }
 
 footer {
-	background: rgba(0,0,0);
+	background: #333;
     color: white;
     padding: 10px;
     margin-top: 20px;
 }
+
 
 
 
