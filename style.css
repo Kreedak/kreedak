@@ -58,6 +58,7 @@ header.shrink {
 }
 
 header h1 {
+	margin-top: 60px;
 	color: white;
 	margin: 0;
 }
@@ -150,6 +151,7 @@ footer {
 		padding: 5px 10px;
 	}
 }
+
 
 
 
