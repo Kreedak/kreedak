@@ -121,7 +121,7 @@ section {
 }
 
 footer {
-	background: blue;
+	background: black;
     color: white;
     padding: 10px;
     margin-top: 20px;
@@ -150,6 +150,7 @@ footer {
 		padding: 5px 10px;
 	}
 }
+
 
 
 
