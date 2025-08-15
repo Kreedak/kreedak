@@ -164,12 +164,14 @@ footer {
 	nav a {
 		display: flex;
 		flex-direction: column;
+		margin: 5px 5px;
 	}
 	
-	header.shrink {
+	header.shrink nav {
 		flex-direction: row;
 	}
 }
+
 
 
 
