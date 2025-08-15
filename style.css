@@ -154,14 +154,15 @@ footer {
 }
 
 @media (min-width: 600px) {
-	.header-inner {
+	nav a {
 		display: flex;
 		flex-direction: column;
 	}
 	header.shrink {
-		flex-wrap: wrap;
+		flex-direction: row;
 	}
 }
+
 
 
 
