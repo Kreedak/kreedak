@@ -31,7 +31,7 @@ header {
   	height: 120px;
   	background: linear-gradient(to left,#4facfe ,#00f2fe );
   	display: flex;
-  	/*align-items: center;*/
+  	align-items: center;
   	justify-content: space-between;
   	padding: 0 30px;
   	transition: height 0.3s ease, padding 0.3s ease;
@@ -139,8 +139,8 @@ footer {
   	nav {
     	display: flex;
 		flex-wrap: wrap;
-    	flex-direction: row;
-    	align-items: center;
+    	flex-direction: column;
+    	align-items: flex-start;
 		justify-content: flex-start;
 		gap: 10px;
     }
@@ -150,6 +150,7 @@ footer {
 		padding: 5px 10px;
 	}
 }
+
 
 
 
