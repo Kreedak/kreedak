@@ -4,6 +4,7 @@ html {
 
 :root {
 	--header-height: 80px;
+	--header-height-small: 48px;
 }
 
 html, body {
@@ -27,29 +28,57 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 80px;
+	height: var(--header-height);
 	width: 100%;
 	background: linear-gradient(to right, #4facfe, #00f2fe);
+	box-shadow: 0 2px 6px rgba(0,0,0,.08);
     color: white;
     padding:0 20px;
 	display: flex;
 	align-items: center;
-	transition: padding 0,3s;
+	transition: padding 0.3s ease, height 0.3s ease, box-shadow 0.3s ease;
 	z-index: 1000;
+}
+
+.header-inner {
+	max-width: 1000px;
+  	margin: 0 auto;
+	height: 100%;
+ 	display: flex;
+ 	flex-direction: column;   
+ 	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 10px 16px;
+	text-align: center;
+}
+
+header.shrink{
+ 	height: var(--header-height-small);
 }
 
 header h1 {
 	margin: 0;
 }
 
+nav{
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 nav a {
 	color: white;
 	text-decoration: none;
+	padding: 6px 10px;
+	border-radius: 8px;
+	transition: background .2s ease;
 	margin: 0 15px;
 	font-wight: bold;
 }
 
 nav a:hover {
+	background: #f2f4f7;
 	text-decoration: underline;
 }
 
@@ -60,7 +89,7 @@ main {
 }
 
 section {
-	scroll-margin-top: 80px;
+	scroll-margin-top: var(--header-height-small);
 	padding: 50px 20px;
 	text-align: center;
 }
@@ -96,6 +125,7 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
 
 
 
