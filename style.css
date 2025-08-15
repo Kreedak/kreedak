@@ -70,6 +70,8 @@ nav{
 }
 
 nav a {
+	display: flex;
+	flex-direction: column;
 	color: white;
 	text-decoration: none;
 	padding: 6px 10px;
@@ -122,7 +124,7 @@ section {
 }
 
 footer {
-	background: black;
+	background: #333;
     color: white;
     padding: 10px;
     margin-top: 20px;
@@ -154,6 +156,11 @@ footer {
 }
 
 @media (min-width: 600px) {
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+	
 	nav a {
 		display: flex;
 		flex-direction: column;
@@ -163,6 +170,7 @@ footer {
 		flex-direction: row;
 	}
 }
+
 
 
 
