@@ -129,7 +129,7 @@ footer {
 
 @media (max-width: 600px) {
   	header {
-    	padding: 10px 15px; /* меньше отступы */
+    	margin-top: 40px;
   	}
 
   	nav a {
@@ -137,6 +137,7 @@ footer {
     	padding: 5px 8px; /* уменьшить внутренние отступы ссылок */
   	}
 }
+
 
 
 
