@@ -73,7 +73,7 @@ nav a {
 	text-decoration: none;
 	padding: 6px 10px;
 	border-radius: 8px;
-	transition: background .2s ease;
+	transition: background 0.2s ease;
 	margin: 0 15px;
 	font-wight: bold;
 }
@@ -139,10 +139,11 @@ footer {
 		justify-content: flex-start;
     }
     nav a {
-    	display: block;
+    	display: block-inline;
     	margin: 5px 0;
 	}
 }
+
 
 
 
