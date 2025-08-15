@@ -34,7 +34,7 @@ header {
     padding:0 20px;
 	display: flex;
 	align-items: center;
-	transition: height 0,3s;
+	transition: padding 0,3s;
 	z-index: 1000;
 }
 
@@ -96,6 +96,7 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
 
 
 
