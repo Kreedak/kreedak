@@ -154,6 +154,8 @@ footer {
 	header.shrink {
 		padding: 0;
 	}
+	nav.scrolled {
+		gap: 2px;
 }
 
 @media (min-width: 600px) {
@@ -162,7 +164,7 @@ footer {
 		flex-direction: column;
 		margin: 5px;
 		margin-right: 20px;
-		gap: 1px;
+		gap: 10px;
 		padding: 0;
 		transition: 0.3s ease; 
 	}
@@ -172,14 +174,13 @@ footer {
 		flex-direction: column;
 		padding: 3px 3px 3px 3px;
 		align-items: center;
-		gap: 1px;
 	}
 
 	header.shrink nav {
-		/*flex-direction: row;*/
 		margin-right: 10px;
 	}
-	/*nav.scrolled {
-		flex-direction: row-reverse;
-	}*/
+	nav.scrolled {
+		gap: 2px;
+	}
+
 }
