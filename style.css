@@ -156,6 +156,7 @@ footer {
 	}
 	nav.scrolled {
 		gap: 2px;
+	}
 }
 
 @media (min-width: 600px) {
@@ -182,5 +183,4 @@ footer {
 	nav.scrolled {
 		gap: 2px;
 	}
-
 }
